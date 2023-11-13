@@ -1,0 +1,59 @@
+Git codes
+* git init => (first time in the repo)
+* git add . => (dot represent current folder of project - or we can push a single code file by its name in place of dot)
+* git commit -m "version 1" => (commit is like version of history)
+* git commit -m "version 1" --amend => (it will add new code before pushing if we miss anything)
+* git remote add origin "//repo link" => (one time only)
+* git push -u origin master
+
+* git reset . =>
+* git checkout -- ID of commit (will get it from "git log--all" and use to go to previous version)
+* git log => (use to know all previous history)
+* press "q" to close git log
+* git log --all --graph => (it will show the branching effect or structure)
+* git config --global alias.s "status" => (we can use this to create shortcut)
+* git config --global alias.cm "commit -m" => (we can use this to create shortcut)
+* git config --global alias.co "checkout" => (we can use this to create shortcut)
+* rm -rf .git => (it will remove all git command)
+* .gitignore => (put this as file in folder it will not show in github site it will keep it as secret)
+
+** Restore to previous version
+* git checkout <hash|branch> <file|folder>
+* git commit -m "message"
+
+** View previous version
+* git log --all --graph
+* git checkout <commit_hash>
+* git checkout <brach_name>
+
+** after doing any changes in code
+
+* git add .
+* git commit -m "work relate comment"
+* git push -u origin master
+
+** take code from github to local
+
+* git checkout branchname => (it will switch it self to that branch)
+* git pull => (form new add //branch link or some letest changes in defferent branches)
+/ make changes what u wants to
+* git add .
+* git commit -m "work related comment"
+* git push
+
+** pull request or to push code in master => (it is a request to the lead or admin of project to promot our chenges to master branch)
+
+* compare & pull request => (click on this in github..the admin will check and merge the code with master branch)
+/ will rise pull request
+/ admin will merge pull request (PR)
+/ changes will reflect in master branch
+
+** cloning 
+
+* git clone URL
+* git status => (to check the things and in branch right now)
+* git checkout branchname => (according to that move to required branch) 
+/ make chenges
+* git add . 
+* git commit -m "work related comment"
+* git push
