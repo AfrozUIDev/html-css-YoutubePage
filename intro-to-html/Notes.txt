@@ -1,0 +1,5 @@
+1. Supersimple - https://supersimple.dev/exercises/buttons
+2. Text - https://supersimple.dev/exercises/text
+3. Hex rgb color converter - https://www.rapidtables.com/convert/color/hex-to-rgb.html
+4. Void Elements
+5. 

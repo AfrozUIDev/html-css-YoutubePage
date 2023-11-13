@@ -1,0 +1,73 @@
+Git codes
+* git init - (first time in the repo)
+* git add .
+* git commit -m "work related comment"
+* git remote add origin "//repo link" - (one time only)
+* git push -u origin master
+
+** after doing any changes in code
+
+* git add .
+* git commit -m "work relate comment"
+* git push -u origin master
+
+** take code from github to local
+
+* git checkout branchname - (it will switch it self to that branch)
+* git pull - (form new add //branch link or some letest changes in defferent branches)
+/ made changes what u wants to
+* git add .
+* git commit -m "work related comment"
+* git push
+
+** pull request or to push code in master - (it is a request to the lead or admin of project to promot our chenges to master branch)
+
+* compare & pull request - (click on this in github..the admin will check and merge the code with master branch)
+/ will rise pull request
+/ admin will merge pull request (PR)
+/ changes will reflect in master branch
+
+** cloning 
+
+* git clone URL
+* git status - (to check the things and in branch right now)
+* git checkout branchname - (according to that move to required branch) 
+/ make chenges
+* git add . 
+* git commit -m "work related comment"
+* git push
+
+----------------
+* Supersimple - https://supersimple.dev/exercises/buttons
+* Text - https://supersimple.dev/exercises/text
+* youtube - https://supersimple.dev/exercises/youtube
+* Hex rgb color converter - https://www.rapidtables.com/convert/color/hex-to-rgb.html
+* Google Fonts - https://fonts.google.com/
+* Google drawing tool(Nested Layouts) - https://docs.google.com/drawings/d/1qclM6Ufa4v_cNoWrLLeMwYPQX4veI4iQYjLRJO0TO8M/edit
+* Void Elements - area , base , br , col , command , embed , hr , img , input , keygen , link , meta , param , source , track , wbr.
+* block element
+* inline block element
+* inline element
+* 
+
+------------------
+
+* object-fit - for image 
+* object-position - for image
+* vertical-align - to make containers as same top
+* line-height - space btwn lines
+* dispalay: grid
+* grid-template-columns: 100px 100px ..... 1fr ; (free space - it will take remain all space of row)
+* display: flex
+* align-atem: center
+* flex-direction: row
+* justify-content: start, center, end
+* justify-content: space-between
+* align-items: center
+* max-width: (it will limit the width up given <=300px )
+* flex-shrink: 0
+* box-shadow: insent (inside will show shadow)
+* boder-bottom-width:
+* transition: 
+* pointer-events: 
+* white-space: nowrap

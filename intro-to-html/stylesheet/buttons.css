@@ -1,0 +1,59 @@
+.sub-btn{
+  background-color: rgb(194, 8, 8);
+  color: white;
+  height: 36px;
+  width: 110px;
+  border: none;
+  border-radius: 2px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+.sub-btn:hover{
+  opacity: 0.8;
+}
+.sub-btn:active{
+  opacity: 0.5;
+}
+
+.join-btn{
+  background-color: white;
+  color: rgb(6,95,202);
+  height: 36px;
+  width: 70px;
+  border: rgb(6,95,202) solid 2px;
+  border-radius: 2px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+  vertical-align: top;
+}
+.join-btn:hover{
+  background-color: rgb(6,95,202);
+  color: white;
+  /* transition: background-color 1s; */
+}
+.join-btn:active{
+  opacity: 0.8;
+}
+
+.tweet-btn{
+  background-color: rgb(29,155,240);
+  color: white;
+  height: 36px;
+  width: 80px;
+  border: rgb(29,155,240) solid 2px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 18px;
+  margin-right: 8px;
+  cursor: pointer;
+  opacity: 0.15s;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+.tweet-btn:hover{
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.15);
+}
+

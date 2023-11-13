@@ -1,0 +1,51 @@
+p{
+  font-family: Roboto;
+  margin-bottom: 0;
+  /* font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif; */
+}
+
+.youtube-title{
+  font-size: 18px;
+  font-weight: bold;
+  width: 280px;
+  margin-top: 140px;
+}
+
+.youtube-value{
+  font-size: 14px;
+  margin-top: 5px;
+  color: rgb(96,96,96)
+}
+
+.youtube-check{
+  font-size: 14px;
+  margin-top: 20px;
+  color: rgb(96,96,96)
+}
+
+.youtube-detail{
+  font-size: 15px;
+  width: 290px;
+  margin-top: 20px;
+  color: rgb(96,96,96);
+}
+
+.apple-line{
+  background-color: rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 110px;
+  font-size: 14px;
+}
+
+.underline{
+  cursor: pointer;
+  font-family: arial;
+}
+
+.underline:hover{
+  text-decoration: underline;
+}
