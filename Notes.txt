@@ -1,6 +1,6 @@
 Git codes
 * git init => (first time in the repo)
-* git add . => ("." dot represent current folder of project - or we can push a single code file by its name in place of dot)
+* git add . => (dot represent current folder of project - or we can push a single code file by its name in place of dot)
 * git commit -m "version 1" => (commit is like version of history)
 * git commit -m "version 1" --amend => (it will add new code before pushing if we miss anything)
 * git remote add origin "//repo link" => (one time only)
