@@ -6,6 +6,10 @@ Git codes
 * git remote add origin "//repo link" => (one time only)
 * git push -u origin master
 
+* git reset . =>
+* git checkout -- ID of commit (will get it from "git log--all" and use to go to previous version)
+* git log => (use to know all previous history)
+
 ** after doing any changes in code
 
 * git add .
