@@ -1,8 +1,9 @@
 Git codes
-* git init - (first time in the repo)
-* git add .
-* git commit -m "work related comment"
-* git remote add origin "//repo link" - (one time only)
+* git init => (first time in the repo)
+* git add . => ("." dot represent current folder of project - or we can push a single code file by its name in place of dot)
+* git commit -m "version 1" => (commit is like version of history)
+* git commit -m "version 1" --amend => (it will add new code before pushing if we miss anything)
+* git remote add origin "//repo link" => (one time only)
 * git push -u origin master
 
 ** after doing any changes in code
@@ -13,16 +14,16 @@ Git codes
 
 ** take code from github to local
 
-* git checkout branchname - (it will switch it self to that branch)
-* git pull - (form new add //branch link or some letest changes in defferent branches)
-/ made changes what u wants to
+* git checkout branchname => (it will switch it self to that branch)
+* git pull => (form new add //branch link or some letest changes in defferent branches)
+/ make changes what u wants to
 * git add .
 * git commit -m "work related comment"
 * git push
 
-** pull request or to push code in master - (it is a request to the lead or admin of project to promot our chenges to master branch)
+** pull request or to push code in master => (it is a request to the lead or admin of project to promot our chenges to master branch)
 
-* compare & pull request - (click on this in github..the admin will check and merge the code with master branch)
+* compare & pull request => (click on this in github..the admin will check and merge the code with master branch)
 / will rise pull request
 / admin will merge pull request (PR)
 / changes will reflect in master branch
@@ -30,8 +31,8 @@ Git codes
 ** cloning 
 
 * git clone URL
-* git status - (to check the things and in branch right now)
-* git checkout branchname - (according to that move to required branch) 
+* git status => (to check the things and in branch right now)
+* git checkout branchname => (according to that move to required branch) 
 / make chenges
 * git add . 
 * git commit -m "work related comment"
