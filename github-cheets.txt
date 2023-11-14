@@ -3,7 +3,7 @@ Git codes
 * git add . => (dot represent current folder of project - or we can push a single code file by its name in place of dot)
 * git commit -m "version 1" => (commit is like version of history)
 * git commit -m "version 1" --amend => (it will add new code before pushing if we miss anything)
-* git remote add origin "//repo link" => (one time only)
+* git remote add origin "//repo link" => (one time only it will add online repo to local repo "remote = refers to things that are online")
 * git push -u origin master
 
 * git reset . =>
@@ -15,7 +15,22 @@ Git codes
 * git config --global alias.cm "commit -m" => (we can use this to create shortcut)
 * git config --global alias.co "checkout" => (we can use this to create shortcut)
 * rm -rf .git => (it will remove all git command)
+* git remote -v => (Verbose - give more details)
+* git remote remove origin => (use to remove remote repo link with local repo)
+* git push origin master -f => (-f = force push)
+* git push origin master --set-upstream => (it will make shortcut to push the code type only "git push")
+* git pull origin master --set-upstream => (it will make shortcut to pull the code type only "git pull")
 * .gitignore => (put this as file in folder it will not show in github site it will keep it as secret)
+
+** pushing updated from github to local
+* git clone URL folder-name
+* do the required changes
+* git add .
+* git commit -m "message"
+* git push origin master
+* git fetch
+* git pull origin master
+* git log --all --graph
 
 ** Restore to previous version
 * git checkout <hash|branch> <file|folder>
@@ -48,9 +63,9 @@ Git codes
 / admin will merge pull request (PR)
 / changes will reflect in master branch
 
-** cloning 
+** cloning - downloading git project in local
 
-* git clone URL
+* git clone URL folder-name=> (downloading git project in local)
 * git status => (to check the things and in branch right now)
 * git checkout branchname => (according to that move to required branch) 
 / make chenges
